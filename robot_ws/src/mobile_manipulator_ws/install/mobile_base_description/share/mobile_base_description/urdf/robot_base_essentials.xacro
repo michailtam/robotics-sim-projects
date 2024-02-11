@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_essentials" >
+
+  <!--######################################################################-->
+  <xacro:macro name="robot_wheel" params="prefix joint_origin color='dark_gray'">
+
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <axis xyz="0 1 0"/>
+      <parent link ="base_link"/>
+      <child link ="${prefix}_wheel"/>
+      <origin xyz= "${joint_origin}" rpy ="0 0 0"/>
+    </joint>
+
+    <link name="${prefix}_wheel">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/wheel.dae" />
+        </geometry>
+        <materia name="${color}" />
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/wheel.stl" />
+        </geometry>
+      </collision>
+      <xacro:inertial_cylinder mass="2.6578" length="0.114" radius="0.165" />
+    </link>
+
+  </xacro:macro>
+
+  <!--##################################### Case #####################################-->
+  <xacro:macro name="case" params="prefix xyz rpy='0 0 0' parent">
+
+    <joint name="${prefix}_joint" type="fixed">
+      <parent link ="${parent}_link"/>
+      <child link ="${prefix}_link"/>
+      <origin xyz= "${xyz}" rpy ="${rpy}"/>
+    </joint>
+
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/lidar_case.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/lidar_case.stl" />
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="0.2" x="0.09" y="0.2" z="0.09" />
+    </link>
+
+  </xacro:macro>
+
+  <!--##################################### Bumper #####################################-->
+  <xacro:macro name="bumper" params="prefix xyz rpy='0 0 0' parent">
+
+    <joint name="${prefix}_joint" type="fixed">
+      <parent link ="${parent}_link"/>
+      <child link ="${prefix}_link"/>
+      <origin xyz= "${xyz}" rpy ="${rpy}"/>
+    </joint>
+
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/bumper.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/bumper.stl" />
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="1.0" x="0.153" y="0.534" z="0.0254" />
+    </link>
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,7 @@
+setup.py
+mobile_base_bringup/__init__.py
+mobile_base_bringup/module_to_import.py
+mobile_base_bringup.egg-info/PKG-INFO
+mobile_base_bringup.egg-info/SOURCES.txt
+mobile_base_bringup.egg-info/dependency_links.txt
+mobile_base_bringup.egg-info/top_level.txt

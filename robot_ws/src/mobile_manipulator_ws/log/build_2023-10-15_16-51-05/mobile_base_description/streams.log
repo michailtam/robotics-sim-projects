@@ -1,0 +1,68 @@
+[0.089s] Invoking command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/src/mobile_base/mobile_base_description -DCMAKE_INSTALL_PREFIX=/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.516s] -- Found Python3: /media/mikelap/DATA/Development/python/virtualenvs/robotics/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.680s] -- Configuring done
+[0.683s] -- Generating done
+[0.684s] -- Build files have been written to: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description
+[0.689s] Invoked command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/src/mobile_base/mobile_base_description -DCMAKE_INSTALL_PREFIX=/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description
+[0.691s] Invoking command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake --build /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description -- -j8 -l8
+[0.729s] Invoked command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake --build /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description -- -j8 -l8
+[0.764s] Invoking command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake --install /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description
+[0.772s] -- Install configuration: ""
+[0.772s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes
+[0.772s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/3d_depth_camera.dae
+[0.799s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel_old.stl
+[0.800s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel.stl
+[0.801s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bicep.stl
+[0.801s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/robot_base.dae
+[0.801s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bumper.stl
+[0.802s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/lidar_case.dae
+[0.812s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bumper.dae
+[0.813s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/rplidar_a1.dae
+[0.817s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/robot_base.stl
+[0.817s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel.dae
+[0.819s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/elbow.stl
+[0.819s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/rplidar_a1.stl
+[0.821s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/arm_base.stl
+[0.821s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/lidar_case.stl
+[0.825s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/3d_depth_camera.stl
+[0.835s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wrist.stl
+[0.835s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf
+[0.835s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base_essentials.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base_gazebo.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base.urdf.urdf
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/4whl_driven
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/4whl_driven/4whl_robot_base_ros2_control.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/sensors.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/2whl_driven
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/2whl_driven/2whl_robot_base_ros2_control.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base.urdf.xacro
+[0.836s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/core.xacro
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/package_run_dependencies/mobile_base_description
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/parent_prefix_path/mobile_base_description
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.sh
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.dsv
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/path.sh
+[0.837s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/path.dsv
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.bash
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.sh
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.zsh
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.dsv
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/package.dsv
+[0.838s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/packages/mobile_base_description
+[0.839s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig.cmake
+[0.839s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig-version.cmake
+[0.839s] -- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/package.xml
+[0.841s] Invoked command in '/media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(robotics) \[\033]0;\u:${NEW_PWD}\007\]\n\[\033[0;1;97;44m\] \u \[\033[0;34;104m\]\[\033[0;1;97;104m\] \h \[\033[0;94;107m\]\[\033[0;90;1;107m\] ${NEW_PWD} \[\033[0;97;49m\]\[\033[1;38;5;74m\] VIRTUAL_ENV_PROMPT=(robotics) /usr/bin/cmake --install /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description

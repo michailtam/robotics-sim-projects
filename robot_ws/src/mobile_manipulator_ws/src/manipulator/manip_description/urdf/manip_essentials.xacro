@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_essentials" >
+
+  <xacro:macro name="part" params="prefix xyz rpy='0 0 0' type axis='0 0 1' parent color='white'
+    visual_xyz='0 0 0' visual_rpy='0 0 0' inertial_xyz='0 0 0' inertial_rpy='0 0 0' mass ixx ixy ixz iyy iyz izz mesh_file">
+
+    <!--################################## Joint ##################################-->
+    <xacro:if value="${type == 'fixed'}">
+      <joint name="${prefix}_joint" type="${type}">
+        <parent link ="${parent}_link"/>
+        <child link ="${prefix}_link"/>
+        <origin xyz= "${xyz}" rpy ="${rpy}"/>
+      </joint>
+    </xacro:if>
+    <xacro:if value="${type == 'continuous'}">
+      <joint name="${prefix}_joint" type="${type}">
+        <axis xyz="${axis}"/>
+        <parent link ="${parent}_link"/>
+        <child link ="${prefix}_link"/>
+        <!-- <limit lower="-3.14" upper="3.14" effort="1000.0" velocity="0.5"/> -->
+        <origin xyz= "${xyz}" rpy ="${rpy}"/>
+      </joint>
+    </xacro:if>
+
+    <!--################################## Link ##################################-->
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="${visual_xyz}" rpy="${visual_rpy}" />
+        <geometry>
+          <mesh filename="${mesh_file}" />
+        </geometry>
+        <material name="${color}" />
+      </visual>
+      <collision>
+        <origin xyz="${visual_xyz}" rpy="${visual_rpy}" />
+        <geometry>
+          <mesh filename="${mesh_file}" />
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="${inertial_xyz}" rpy="${inertial_rpy}" />
+        <mass value="${mass}" />
+        <inertia ixx="${ixx}" ixy="${ixy}" ixz="${ixz}" iyy="${iyy}" iyz="${iyz}" izz="${izz}" />
+      </inertial>
+    </link>
+
+  </xacro:macro>
+
+</robot>

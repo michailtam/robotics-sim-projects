@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /media/mikelap/DATA/Development/python/virtualenvs/robotics/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/build/mobile_base_description
+-- Install configuration: ""
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/3d_depth_camera.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel_old.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bicep.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/robot_base.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bumper.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/lidar_case.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/bumper.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/rplidar_a1.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/robot_base.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wheel.dae
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/elbow.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/rplidar_a1.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/arm_base.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/lidar_case.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/3d_depth_camera.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/meshes/wrist.stl
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base_essentials.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base_gazebo.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base.urdf.urdf
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/4whl_driven
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/4whl_driven/4whl_robot_base_ros2_control.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/sensors.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/2whl_driven
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/2whl_driven/2whl_robot_base_ros2_control.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/robot_base.urdf.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/urdf/core.xacro
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/package_run_dependencies/mobile_base_description
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/parent_prefix_path/mobile_base_description
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.sh
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.dsv
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/path.sh
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/environment/path.dsv
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.bash
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.sh
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.zsh
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/local_setup.dsv
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/package.dsv
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/ament_index/resource_index/packages/mobile_base_description
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig.cmake
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig-version.cmake
+-- Installing: /media/mikelap/DATA/GitRepos/robotics/robot_ws/src/mobile_manipulator_ws/install/mobile_base_description/share/mobile_base_description/package.xml

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_essentials" >
+
+  <!-- Lidar sensor -->
+  <xacro:macro name="lidar" params="prefix xyz rpy='0 0 0' parent">
+
+    <joint name="${prefix}_joint" type="fixed">
+      <parent link ="${parent}_link"/>
+      <child link ="${prefix}_link"/>
+      <origin rpy ="${rpy}" xyz= "${xyz}"/>
+    </joint>
+    
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/rplidar_a1.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/rplidar_a1.stl" />
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="0.363" x="0.13" y="0.0991" z="0.0774" />
+    </link>
+
+    <!-- Ray link to move the ray on the z-axis. -->
+    <joint name="${prefix}_ray_joint" type="fixed">
+      <parent link ="${prefix}_link"/>
+      <child link ="${prefix}_ray_link"/>
+      <origin rpy ="0 0 0" xyz= "0 0 0.01"/>
+    </joint>
+
+    <link name="${prefix}_ray_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="transparent"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.01 0.01 0.01"/>
+        </geometry>
+      </collision>
+    </link>
+
+  </xacro:macro>
+
+  <!-- 3D depth camera - Orbbec Astra Camera -->
+  <xacro:macro name="camera_3d" params="prefix xyz rpy='0 0 0' parent">
+    <!-- Mounting point -->
+    <joint name="${prefix}_joint" type="fixed">
+      <parent link="${parent}_link"/>
+      <child link="${prefix}_link"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/3d_depth_camera.dae" />          
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://mobile_base_description/meshes/3d_depth_camera.stl" />
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="0.3" x="0.04" y="0.165" z="0.03" />
+    </link>
+
+    <!-- Source: https://answers.ros.org/question/232534/gazebo-camera-frame-is-inconsistent-with-rviz-opencv-convention/ 
+    These values have to be these, becuse otherwise the gazebo camera image won't be 
+    aligned properly with the frame it is supposedly originating from.-->
+    <joint name="camera_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+      <parent link="${prefix}_link"/>
+      <child link="camera_link_optical"/>
+    </joint>
+
+    <link name="camera_link_optical">  
+    </link>
+
+  </xacro:macro>
+
+</robot>

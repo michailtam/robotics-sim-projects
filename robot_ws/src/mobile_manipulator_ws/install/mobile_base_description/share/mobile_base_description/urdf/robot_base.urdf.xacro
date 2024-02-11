@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<robot name="mobile_base_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find mobile_base_description)/urdf/core.xacro" />
+  <xacro:include filename="$(find mobile_base_description)/urdf/sensors.xacro" />
+  <xacro:include filename="$(find mobile_base_description)/urdf/robot_base_essentials.xacro" />
+  <xacro:include filename="$(find mobile_base_description)/urdf/robot_base_gazebo.xacro" />
+
+  <!-- Checks if a two wheel or four wheel robot is desired for ROS2 Control. -->
+  <xacro:property name="two_whl_robot" value="true" />
+  <xacro:macro name="two_whl_robot" params="items:=true" />
+  <xacro:if value="${two_whl_robot}">
+    <xacro:include filename="$(find mobile_base_description)/urdf/2whl_driven/2whl_robot_base_ros2_control.xacro" />
+  </xacro:if>
+  <xacro:unless value="${two_whl_robot}">
+    <xacro:include filename="$(find mobile_base_description)/urdf/4whl_driven/4whl_robot_base_ros2_control.xacro" />
+  </xacro:unless>
+  
+  <!--######################################################################-->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://mobile_base_description/meshes/robot_base.dae" />
+      </geometry>
+      <material name="orange" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://mobile_base_description/meshes/robot_base.stl" />
+      </geometry>
+    </collision>
+    <xacro:inertial_box mass="47.873" x="0.65" y="0.4" z="0.2" />
+  </link>
+
+  <!--############################# Four wheels #########################################-->
+  <xacro:robot_wheel prefix="front_left" joint_origin="0.220 0.26 0"/>
+  <xacro:robot_wheel prefix="front_right" joint_origin="0.220 -0.26 0"/>
+  <xacro:robot_wheel prefix="rear_left" joint_origin="-0.220 0.26 0"/>
+  <xacro:robot_wheel prefix="rear_right" joint_origin="-0.220 -0.26 0"/>
+
+  <!--############################# Lidar sensor #########################################-->
+  <xacro:lidar prefix="lidar_sensor" xyz="0.25 0 0.15" rpy="0 0 0" parent="base"/>
+  <xacro:case prefix="lidar_case" xyz="0.235 0 0.15" parent="base"/>
+
+  <!--############################# 3D camera sensor and case #################################-->
+  <xacro:camera_3d prefix="depth_camera" xyz="0.01 0 0.11" parent="lidar_case"/>
+
+  <!--############################# Front/Rear bumpers ####################################-->
+  <xacro:bumper prefix="front_bumper" xyz="0.44 0 0.055" parent="base"/>
+  <xacro:bumper prefix="rear_bumper" xyz="-0.44 0 0.055" rpy="0 0 ${radians(180)}" parent="base"/>
+
+</robot>
