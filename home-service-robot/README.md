@@ -174,7 +174,7 @@ TrajectoryPlannerROS:
 ### Home Service Robot Operation
 The video shows how the mobile robot performs autonomously the pickup and drop off task shown in birds eye view.
 <a href="https://www.youtube.com/watch?v=Lg-u6IF4vuU&t=8s" target="_blank">
-<img src="https://github.com/michailtam/robotics-sim-projects/tree/master/home-service-robot/images/home_service_op.png" alt="Home Service Operations" width="560" height="400" border="0" /></a>
+<img src="https://github.com/michailtam/robotics-sim-projects/blob/master/home-service-robot/images/home_service_op.png" alt="Home Service Operations" width="560" height="400" border="0" /></a>
 
 ### Rviz Output
 The video shows how the robot navigates in the building autonomously while it senses the environment. You can see that obstacles are inflated (blue shape regions).

@@ -162,21 +162,21 @@ else:
 ## 2. Executing the flight
 | **San Francisco - Satelite** |
 | :---------------------------- |
-| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/map.png" alt="San Francisco Map - Satelite" width="700" height="500" border="0" /> |
+| <img src="./misc//map.png" alt="San Francisco Map - Satelite" width="700" height="500" border="0" /> |
 | **San Francisco - 3D** |
-| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/high_up.png" alt="San Francisco Map - 3D" width="700" height="500" border="0" /> |
+| <img src="./misc/high_up.png" alt="San Francisco Map - 3D" width="700" height="500" border="0" /> |
 
 
 | **Path - Corner** |
 | :---------------------------- |
-| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/corner.png" alt="Corner" width="700" height="500" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/blob/master/3d-motion-planning/misc/corner.png" alt="Corner" width="700" height="500" border="0" /> |
 | **Path - Towards the goal** |
-| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/towards_goal.png" alt="Towards the goal" width="700" height="500" border="0" /> |
+| <img src="./misc/towards_goal.png" alt="Towards the goal" width="700" height="500" border="0" /> |
 | **Flight path** |
-| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/flying_path.png" alt="Flight path" width="700" height="500" border="0" /> |
+| <img src="./misc/flying_path.png" alt="Flight path" width="700" height="500" border="0" /> |
 
 ## 3. Video
 <a href="https://www.youtube.com/watch?v=CxTT9g_G1x8" target="_blank">
-<img src="https://github.com/michailtam/robotics-sim-projects/tree/master/3d-motion-planning/misc/flying_path.png" alt="3D Motion Planning" width="700" height="500" border="0" />
+<img src="./misc/flying_path.png" alt="3D Motion Planning" width="700" height="500" border="0" />
 
 
