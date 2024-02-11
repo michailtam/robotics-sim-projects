@@ -188,4 +188,4 @@ The video shows how the robot navigates in the building autonomously while it se
 ### 2D SLAM
 The video shows how the robot navigates on the map and performs SLAM to create the 2d map.
 <a href="https://www.youtube.com/watch?v=pGH0uAwmVvM&t=61s" target="_blank">
-<img src="https://github.com/michailtam/robotics-sim-projects/tree/master/turtlebot-home-service-robot/images/images/2d_slam.png" alt="2D SLAM" width="560" height="400" border="0" /></a>
+<img src="https://github.com/michailtam/robotics-sim-projects/tree/master/turtlebot-home-service-robot/images/2d_slam.png" alt="2D SLAM" width="560" height="400" border="0" /></a>
