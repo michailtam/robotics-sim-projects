@@ -39,31 +39,31 @@ View -> Graph View
 | :--- |
 | Left: The created 2D map and the path the robot is traversing, Center: The output of the camera, Right: The constraints view | 
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="660" height="400" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="660" height="400" border="0" /> |
 
 | **2nd RTAB-DB Output** |
 | :--- |
 | Left: The created 2D map and the path the robot is traversing, Center: The output of the camera, Right: The constraints view |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="660" height="400" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="660" height="400" border="0" /> |
 
 | **3D Office visualization in Gazebo** |
 | :--- |
 | The office where the robot is moving and performs SLAM |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-gazebo.png" alt="Gazebo office" width="660" height="400" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/rtabmap-gazebo.png" alt="Gazebo office" width="660" height="400" border="0" /> |
 
 | **SLAM visualization in Rviz (in 3D)** |
 | :--- |
 | The visualized output in rviz after performing SLAM |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-rviz.png" alt="SLAM in rviz" width="660" height="400" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/rtabmap-rviz.png" alt="SLAM in rviz" width="660" height="400" border="0" /> |
 
 | **Created 2D Map after SLAM** | **Created 3D Map after SLAM** |
 | :---: | :---: | 
 | The created 2D office map | The created 3D office map |
 | **Screenshots** | **Screenshots** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="600" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="550" border="0" /> |
+| <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="600" border="0" /> | <img src="https://github.com/michailtam/robotics-sim-projects/tree/master/robotics-map-my-world/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="550" border="0" /> |
 
 An example of executing SLAM is shown in the video below.
 
