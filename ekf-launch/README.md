@@ -15,7 +15,7 @@ git clone https://github.com/udacity/robot_pose_ekf
 git clone https://github.com/udacity/odom_to_trajectory
 git clone https://github.com/turtlebot/turtlebot
 ```
-Another place to search for ROS packages is [here](https://www.ros.org/browse/list.php?package_type=package&distro=kinetic).
+Another place to search for ROS packages is [here](https://index.ros.org/packages/).
 
 ## Important
 Don't forget to source your catkin workspace and install the dependencies (if needed). For example to install dependencies for the turtlebot_teleop package issue the following in the terminal.

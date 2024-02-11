@@ -17,10 +17,8 @@ This project assumes that you are using Ubuntu (tested on Ubuntu 20.4 LST) and t
 are installed. The installation instructions can be found [here](http://wiki.ros.org/kinetic/Installation/Ubuntu) and [here](http://gazebosim.org/tutorials?tut=install_ubuntu).
 
 ### Installation
-To install the repository and packages, please follow the bellow steps. If you encounter any problems please refer to the [disussion forum of ROS](https://discourse.ros.org/) to get further help.
-
-1. Clone the repository ```$ git clone https://github.com/michailtam/go-chase-it.git```
-2. Change into the **src** folder ```$ cd src``` and initialize the workspace ```$ catkin_init_workspace```
+1. Refer to [this](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo) post to download the ```go-chase-it``` folder from ```https://github.com/michailtam/robotics-sim-projects.git```. 
+2. Change into the **src** folder and initialize the workspace ```$ catkin_init_workspace```
 3. Return to the toplevel catkin folder and build the packages```$ catkin_make```
 
 ### Running the simulation:
