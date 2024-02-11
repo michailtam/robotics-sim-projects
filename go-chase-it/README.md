@@ -48,4 +48,4 @@ The overall process to run the simulation and to see how the robot chases white 
 
 #### Video
 <a href="https://www.youtube.com/embed/0WqCSpGcEX0" target="_blank">
-<img src="https://github.com/michailtam/robotics-sim-projects/tree/master/go-chase-it/images/video_preview.png" alt="Go Chase It (ROS) Video" width="760" height="400" border="0" />
+<img src="./images/video_preview.png" alt="Go Chase It (ROS) Video" width="760" height="400" border="0" />
